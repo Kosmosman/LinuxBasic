@@ -127,10 +127,13 @@ MCEDIT: сохранение и выход "Save - Quit", выход без со
 sudo nano /etc/ssh/sshd_config. 
 Удаляем комментарий рядом с надписью #Port 22 и меняем цифру 22 на 2022. Так же разрешаем логиниться под root.  
 Далее разрешаем как логин по ключу, так и логин по паролю:  
+
+![Screenshot 1](Task_8/1.png "Конфигурация sshd")
+
 Сохраняем, закрываем, перезапускаем демона. 
 После проверяем что демон перезапустился, командой sudo service sshd status. 
 
-![Screenshot 1](Task_8/1.png "Конфигурация sshd")
+![Screenshot 4](Task_8/4.png "Состояние ssh после рестарта")
 
 Настройка файервола:
 
@@ -164,8 +167,6 @@ sudo nano /etc/ssh/sshd_config.
 reboot. 
 sudo service sshd restart. 
 control + d. 
-
-![Screenshot 4](Task_8/4.png "Состояние ssh после рестарта")
 
 ![Screenshot 3](Task_8/3.png "Наличие ssh в ps")
 
