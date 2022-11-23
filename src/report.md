@@ -259,11 +259,14 @@ htop:
 
 ## Part 10. Использование утилиты fdisk
 Запустить команду fdisk -l
+
 ![Screenshot 1](Task_10/1.png "1")
+
 Название жесткого диска - /dev/sda. 
 Размер - 10 Gib. 
 Количество секторов - 20971520. 
 Размер swap - sudo swapon --show - 1.5G. 
+
 ![Screenshot 2](Task_10/2.png "2")
 
 ## Part 11. Использование утилиты df
@@ -273,6 +276,7 @@ htop:
 ![Screenshot 1](Task_11/1.png "1")
 
 В отчёте написать для корневого раздела (/):
+
 ![Screenshot 2](Task_11/2.png "2")
 
 размер раздела - 8408452. 
@@ -287,7 +291,9 @@ htop:
 ![Screenshot 3](Task_11/3.png "3")
 
 В отчёте написать для корневого раздела (/):
+
 ![Screenshot 4](Task_11/4.png "4")
+
 размер раздела - 8.1G
 размер занятого пространства - 4.2G
 размер свободного пространства - 3.5G
@@ -313,9 +319,11 @@ htop:
 
 ## Part 13. Установка и использование утилиты ncdu
 Устанавливаем sudo apt install ncdu
+
 ![Screenshot 1](Task_13/1.png "1")
 
 Вывести размер папок /home, /var, /var/log - команда ncdu /
+
 ![Screenshot 2](Task_13/2.png "2")
 ![Screenshot 3](Task_13/3.png "3")
 ![Screenshot 4](Task_13/4.png "4")
@@ -328,13 +336,19 @@ htop:
 1. /var/log/dmesg
 2. /var/log/syslog
 3. /var/log/auth.log
+
 ![Screenshot 1](Task_14/1.png "1")
 
 Написать в отчёте время последней успешной авторизации, имя пользователя и метод входа в систему - 17:51:59, joaqund.
+
 ![Screenshot 2](Task_14/2.png "2")
+
 Перезапустить службу SSHd - sudo service sshd restart
+
 ![Screenshot 3](Task_14/3.png "3")
+
 Вставить в отчёт скрин с сообщением о рестарте службы (искать в логах).
+
 ![Screenshot 4](Task_14/4.png "4")
 
 ## Part 15. Использование планировщика заданий CRON
